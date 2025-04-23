@@ -8,6 +8,8 @@ public final class LifeShards extends JavaPlugin {
     public void onEnable() {
         getLogger().info("[LifeShards] Plugin has been enabled!");
 
+        getCommand("lifeshards").setExecutor(new LifeShardsCommand(this));
+
     }
 
     @Override

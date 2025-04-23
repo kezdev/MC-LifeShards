@@ -3,3 +3,7 @@ version: '1.0'
 main: dev.kezhall.lifeShards.LifeShards
 api-version: '1.21'
 author: Kez
+commands:
+  lifeshards:
+    description: Manage LifeShards
+    usage: /<command> set <player> <amount>
