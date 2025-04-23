@@ -35,16 +35,14 @@ public class LifeShardsCommand implements CommandExecutor {
             return true;
         }
 
-        if (amount < 1 || amount > 20) {
-            sender.sendMessage("§cAmount must be between 1 and 20.");
+        if (amount < 1 || amount > 30) {
+            sender.sendMessage("§cAmount must be between 1 and 30.");
             return true;
         }
 
         double newHealth = amount * 2.0;
         target.setMaxHealth(newHealth);
-        if (target.getHealth() > newHealth) {
-            target.setHealth(newHealth); // prevent overheal
-        }
+        target.setHealth(newHealth);
 
         sender.sendMessage("§aSet " + target.getName() + "'s hearts to " + amount + ".");
         target.sendMessage("§aYour max hearts were set to " + amount + "!");
