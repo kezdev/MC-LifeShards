@@ -11,4 +11,4 @@ Life Shards is a lightweight Spigot plugin that gives you control over a playerâ
 
 ## ðŸ“¦ Downloads & Compatibility
 
-Compiled .jar files for each supported Minecraft version are available under the Releases section of this repository. Head to https://github.com/kezdev/MC-LifeShards/releases and download the .jar that matches the version of Minecraft your server is running.
+Compiled .jar files for each supported Minecraft version are available under the Releases section of this repository. Head to [releases](https://github.com/kezdev/MC-LifeShards/releases) and download the .jar that matches the version of Minecraft your server is running.
