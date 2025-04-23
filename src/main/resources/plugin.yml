@@ -1,0 +1,5 @@
+name: LifeShards
+version: '1.0'
+main: dev.kezhall.lifeShards.LifeShards
+api-version: '1.21'
+author: Kez
